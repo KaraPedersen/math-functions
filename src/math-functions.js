@@ -15,7 +15,10 @@ export function sum(a, b) {
     const result = a + b;
     const returnString = 'The sum of ' + a + ' and ' + b + ' is ' + result + '.';
     return [result, returnString];
+<<<<<<< HEAD
 
+=======
+>>>>>>> 69866bd9ff516aea0763190e34cb6c8b1e3fc7d2
 }
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
