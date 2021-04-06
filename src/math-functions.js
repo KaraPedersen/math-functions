@@ -121,8 +121,8 @@ export function multiplyArrayWithThreeNumbers(multArr) { //eslint-disable-line
     const a = multArr[0];
     const b = multArr[1];
     const c = multArr[2];
-    const bubba = multiply(a, b);
-    const bubbaJr = multiply(bubba[0], c);
+    const kermit = multiply(a, b);
+    const bubbaJr = multiply(kermit[0], c);
 
     return [bubbaJr[0], `The numbers ${a},${b},${c} have a product of ${bubbaJr[0]}.`];
 }
