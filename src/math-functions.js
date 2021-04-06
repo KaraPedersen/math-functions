@@ -30,7 +30,7 @@ Write a function called multiply() that takes in two numbers as arguments and re
 
 export function multiply(a, b) {
 
-    return [a * b, `The product of ${a} and ${b} is ${a * b}.`]
+    return [a * b, `The product of ${a} and ${b} is ${a * b}.`];
 
 }
 
@@ -118,7 +118,13 @@ you may continue to use the + operator for string concatenation.
 */
 
 export function multiplyArrayWithThreeNumbers(multArr) { //eslint-disable-line
+    const a = multArr[0];
+    const b = multArr[1];
+    const c = multArr[2];
+    const bubba = multiply(a, b);
+    const bubbaJr = multiply(bubba[0], c);
 
+    return [bubbaJr[0], `The numbers ${a},${b},${c} have a product of ${bubbaJr[0]}.`];
 }
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
